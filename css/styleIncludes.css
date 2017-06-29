@@ -49,3 +49,9 @@ h5 {
   font-family: 'Philosopher', sans-serif;
   color: #4286f4;
 }
+
+@media screen and (max-width: 640px){
+  .slider_item {
+    height: 300px;
+  }
+}
