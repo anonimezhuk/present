@@ -1,0 +1,55 @@
+.container {
+  width: 100%;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Lobster', cursive;
+  font-size: 30px;
+  color: #4147f4;  
+}
+
+.dicsription {
+  position: relative;
+}
+
+h4 {
+  font-family: 'Comfortaa', cursive;
+  font-size: 24px;
+  color: #4286f4;
+}
+
+.discription h4:not(:first-child) {
+  display: none;
+}
+
+.discription h4:nth-child(2) {
+  color: #d81f33;
+}
+
+.discription h4:nth-child(3) {
+  color: #f3b62e;
+}
+
+.presents {
+  position: relative;
+}
+
+.presents img {
+  width: 30%;
+  height: auto;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;  
+  cursor: pointer;  
+}
+
+.presents img:not(:first-child) {
+  display: none;
+}
+
+.presents a {
+  display:none;
+}
