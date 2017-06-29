@@ -1,0 +1,51 @@
+.container {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.slider {
+  position: relative;
+}
+.slider_item {
+  position: relative;   
+  height: 600px;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Lobster', cursive;
+  font-size: 30px;
+}
+
+h4, .hb {
+  font-family: 'Philosopher', sans-serif;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 30%;
+  width: 50%;
+  margin: -5% 0 0 -25%;  
+}
+
+.slider_item span {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  font-size: 20px;
+  font-family: 'Comfortaa', cursive;
+  margin-right: 5px;
+}
+
+.slider_item img {
+  width: 25%;
+  height: auto;
+  margin: 5px;
+}
+
+h5 {
+  font-size: 20px;
+  font-family: 'Philosopher', sans-serif;
+  color: #4286f4;
+}
