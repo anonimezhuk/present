@@ -1,3 +1,6 @@
+body {
+  height: 100%;
+}
 .container {
   width: 80%;
   margin: 0 auto;
@@ -10,7 +13,9 @@
 .slider_item {
   position: relative;   
   height: 600px;
+  background: #fff;
   text-align: center;
+  border-radius: 10px;
 }
 
 h3 {
@@ -50,8 +55,21 @@ h5 {
   color: #4286f4;
 }
 
-@media screen and (max-width: 640px){
+@media screen and (max-width: 769px) {
   .slider_item {
-    height: 300px;
+    height: 270px;
+  }
+  h4 {
+    font-size: 25px;
+  }
+  
+  .hb {
+    font-size: 12px!important;
+    top:9%!important;
+  }
+}
+@media screen and (max-width: 500px){
+  h4 {
+    font-size: 20px;
   }
 }
